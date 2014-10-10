@@ -1,0 +1,448 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Social Articles\n"
+"POT-Creation-Date: 2013-09-03 23:19-0300\n"
+"PO-Revision-Date: 2014-10-10 10:17+0100\n"
+"Last-Translator: \n"
+"Language-Team: Broobe <dev@broobe.com>\n"
+"Language: en_EN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: C:\\xampp1.8.2\\htdocs\\wordpress-plugins\\wordpress\\wp-"
+"content\\plugins\\social-articles\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: social-articles.php:159
+msgid "Settings"
+msgstr "Réglages"
+
+#: social-articles.php:171
+msgid "Donate"
+msgstr "Faire un don"
+
+#: social-articles.php:191
+msgid ""
+"<strong>Social Articles</strong></a> requires the BuddyPress plugin to work. "
+"Please <a href=\"http://buddypress.org\">install BuddyPress</a> first, or <a "
+"href=\"plugins.php\">deactivate Social Articles</a>."
+msgstr ""
+"<strong>Social Articles</strong></a> requiert le plugin BuddyPress pour "
+"fonctionner corerctement. Merci <a href=\"http://buddypress.org"
+"\">d'installer BuddyPress</a> avant d'utiliser ce plugin, ou <a href="
+"\"plugins.php\">désactiver Social Articles</a>."
+
+#: includes/social-articles-functions.php:88
+msgid "One of your articles was approved"
+msgstr "Un de vos articles a été approuvé"
+
+#: includes/social-articles-functions.php:88
+#: includes/social-articles-functions.php:96
+msgid "check it out!"
+msgstr "regardez par vous même!"
+
+#: includes/social-articles-functions.php:95
+msgid "There is a new article by "
+msgstr "Il y a un nouvel article par"
+
+#: includes/social-articles-load.php:12 includes/social-articles-load.php:124
+msgid "Social Articles"
+msgstr "Social Articles"
+
+#: includes/social-articles-load.php:45
+msgid "Search articles..."
+msgstr "Rechercher des articles..."
+
+#: includes/social-articles-load.php:56
+msgid "My articles"
+msgstr "Mes articles"
+
+#: includes/social-articles-load.php:79
+#, php-format
+msgid "My articles <span>%d</span>"
+msgstr "Mes articles <span>%d</span>"
+
+#: includes/social-articles-load.php:88
+#: includes/templates/members/single/articles/new.php:53
+msgid "New article"
+msgstr "Nouvel article"
+
+#: includes/social-articles-load.php:131
+#, php-format
+msgid "My Articles <span class=\"count\">%d</span>"
+msgstr "Mes Articles <span class=\"count\">%d</span>"
+
+#: includes/social-articles-load.php:138
+msgid "New Article"
+msgstr "Nouvel Article"
+
+#: includes/social-articles-manage-functions.php:64
+msgid "Title is required"
+msgstr "Un titre est requis"
+
+#: includes/social-articles-manage-functions.php:141
+msgid "Error creating the article. Try again please."
+msgstr "Erreur lors de la création de l'article. Merci de réessayer."
+
+#: includes/social-articles-manage-functions.php:207
+msgid "edit article"
+msgstr "éditer l'article"
+
+#: includes/social-articles-manage-functions.php:210
+msgid "delete article"
+msgstr "supprimer cet article"
+
+#: includes/social-articles-manage-functions.php:219
+msgid "comments"
+msgstr "commentaires"
+
+#: includes/social-articles-manage-functions.php:225
+msgid "Archived"
+msgstr "Archivé"
+
+#: includes/social-articles-manage-functions.php:250
+#: includes/social-articles-manage-functions.php:286
+msgid "done"
+msgstr "effectué"
+
+#: includes/social-articles-manage-functions.php:312
+msgid ""
+"Your article is under review. When the editors approve it you will get a "
+"notification."
+msgstr ""
+"Votre article est en attente d emodération. Lorsqu'un des éditeurs l'aura "
+"approuvé, vous en serez notifié par mail."
+
+#: includes/social-articles-manage-functions.php:316
+msgid "Your article is in draft form."
+msgstr "Votre article est enregistré comme brouillon."
+
+#: includes/social-articles-manage-functions.php:320
+msgid "Your article has been published."
+msgstr "Votre article a été publié."
+
+#: includes/social-articles-options.php:16
+msgid "Settings Saved"
+msgstr "Réglages enregistrés"
+
+#: includes/social-articles-options.php:23
+msgid "Social Articles Settings"
+msgstr "Réglages de Social Articles"
+
+#: includes/social-articles-options.php:30
+#: includes/social-articles-options.php:46
+msgid "Help Spread the Word!"
+msgstr "Aidez-nous a faire connaître ce plugin!"
+
+#: includes/social-articles-options.php:31
+msgid ""
+"Want to help make this plugin even better? All donations are used to improve "
+"this plugin, so donate $20, $50 or $100 now!"
+msgstr ""
+"Vous souhaitez contribuer à l'amélioration de ce plugin? Toute donation sera "
+"entièrement utilisée pour le développement de ce plugin, alors n'hésitez  "
+"pas à faire un don de $20, $50 ou $100 dès aujourd'hui!"
+
+#: includes/social-articles-options.php:38
+msgid "Or you could:"
+msgstr "Ou vous pourriez:"
+
+#: includes/social-articles-options.php:40
+msgid "Rate the plugin 5★ on WordPress.org"
+msgstr "Votez  5★  pour ce plugin sur WordPress.org"
+
+#: includes/social-articles-options.php:41
+msgid "Help out other users in the forums"
+msgstr "Aidez d'autres utilisateurs sur les forums"
+
+#: includes/social-articles-options.php:42
+#, php-format
+msgid "Blog about it & link to the %1$splugin page%2$s"
+msgstr "Bloguer à notre propos & faites un lien sur la %1$splugin page%2$s"
+
+#: includes/social-articles-options.php:59
+msgid "Post per page#"
+msgstr "Artciles par page#"
+
+#: includes/social-articles-options.php:65
+msgid "Excerpt length#"
+msgstr "Longueur de l'extrait#"
+
+#: includes/social-articles-options.php:71
+msgid "Select category type"
+msgstr "Sélectionnez un type de catégorie"
+
+#: includes/social-articles-options.php:73
+msgid "Single"
+msgstr "Unique"
+
+#: includes/social-articles-options.php:74
+msgid "Multiple"
+msgstr "Multiple"
+
+#: includes/social-articles-options.php:75
+msgid "Number of categories people can select"
+msgstr "Nombre de catégories sélectionnables par les usagers"
+
+#: includes/social-articles-options.php:81
+msgid "Select workflow type"
+msgstr "Sélectionner un type de Workflow"
+
+#: includes/social-articles-options.php:83
+msgid "Direct Publish"
+msgstr "Publication directe"
+
+#: includes/social-articles-options.php:84
+msgid "With Approval "
+msgstr "Avec approbation"
+
+#: includes/social-articles-options.php:93
+msgid "To use this feature, you need to activate bb Friend Connections module."
+msgstr ""
+"Pour utiliser cette fonctionnalité, vous devez activer le module BP Friends "
+"Connections"
+
+#: includes/social-articles-options.php:98
+msgid "Send buddyPress notifications?"
+msgstr "Envoyer des notificatiosn Buddypress"
+
+#: includes/social-articles-options.php:100
+#: includes/social-articles-options.php:110
+#: includes/social-articles-options.php:120
+msgid "False"
+msgstr "False"
+
+#: includes/social-articles-options.php:101
+#: includes/social-articles-options.php:111
+#: includes/social-articles-options.php:121
+msgid "True"
+msgstr "True"
+
+#: includes/social-articles-options.php:108
+msgid "Can users edit their articles?"
+msgstr "les utilisateurs peuvent-ils editer leurs articles?"
+
+#: includes/social-articles-options.php:118
+msgid "Can users delete their articles?"
+msgstr "Les utilisateurs peuvent-ils supprimer leurs articles?"
+
+#: includes/social-articles-options.php:126
+msgid "Update Social Articles Settings"
+msgstr "Mettre à jour les réglages de Social Articles"
+
+#: includes/social-articles-options.php:127
+msgid "General"
+msgstr "Général"
+
+#: includes/social-articles-options.php:137
+msgid "Coming Soon!!!"
+msgstr "Bientôt disponible!!!"
+
+#: includes/social-articles-options.php:140
+msgid "Mail Notifications"
+msgstr "Notifications par mail"
+
+#: includes/social-articles-options.php:141
+msgid ""
+"Mail Notification sends mail to your mailboxes. When new notification "
+"arrives, Mail Notification sends a new email."
+msgstr ""
+"Les notifications par mail sont envoyées dans votre boîte aux lettres. "
+"Lorsqu'une nouvelle notification est envoyée, un nouveau mail est alors "
+"envoyé."
+
+#: includes/social-articles-options.php:143
+msgid "Html Template Customization"
+msgstr "Personnalisation du template mail HTML"
+
+#: includes/social-articles-options.php:144
+msgid "Customize your email with HTML Template Customizations!"
+msgstr "Customisez vos emails avec la personnalisation du template HTML!"
+
+#: includes/social-articles-options.php:146
+msgid "Category Black List"
+msgstr "Black list des catégories"
+
+#: includes/social-articles-options.php:147
+msgid "Tags Black List"
+msgstr "Black list des Tags"
+
+#: includes/social-articles-options.php:148
+msgid "Post type"
+msgstr "Post type"
+
+#: includes/social-articles-options.php:149
+msgid "Selection of areas to display"
+msgstr "Sélection des zones à afficher"
+
+#: includes/social-articles-options.php:150
+msgid "Required Fields Definition"
+msgstr "Définition des champs requis"
+
+#: includes/social-articles-options.php:151
+msgid "More Editor Functions"
+msgstr "Plus d'options pour l'éditeur"
+
+#: includes/social-articles-options.php:152
+msgid "Galleries"
+msgstr "Galeries"
+
+#: includes/social-articles-options.php:157
+msgid "Premium Features"
+msgstr "Fonctionnalités Premium"
+
+#: includes/social-articles-tools.php:110
+msgid "Why not do any or all of the following:"
+msgstr "Pourquoi ne pas faire une des choses suivantes:"
+
+#: includes/social-articles-tools.php:112
+msgid "Link to it so other folks can find out about it."
+msgstr "Faire un lien pour ne informer d'autres personnes."
+
+#: includes/social-articles-tools.php:113
+msgid "Give it a 5 star rating on WordPress.org."
+msgstr "Attribuer 5 étoiles au plugin sur WordPress.org."
+
+#: includes/social-articles-tools.php:114
+msgid "Let other people know that it works with your WordPress setup."
+msgstr ""
+"Informer d'autres utilisateurs que ce plugin fonctionne avec votre "
+"configuration Wordpress."
+
+#: includes/social-articles-tools.php:116
+msgid "Like this plugin?"
+msgstr "Vous aimez ce plugin?"
+
+#: includes/social-articles-tools.php:127
+msgid "Found a bug?"
+msgstr "Vosu avez trouvé un Bug?"
+
+#: includes/templates/members/single/articles/loop.php:37
+#: includes/templates/members/single/articles/new.php:6
+msgid "Published"
+msgstr "Publié"
+
+#: includes/templates/members/single/articles/loop.php:42
+msgid "Under Review"
+msgstr "En cours de révision"
+
+#: includes/templates/members/single/articles/loop.php:46
+#: includes/templates/members/single/articles/new.php:7
+msgid "Draft"
+msgstr "brouillon"
+
+#: includes/templates/members/single/articles/loop.php:58
+msgid "Load more articles"
+msgstr "Afficher plus d'articles"
+
+#: includes/templates/members/single/articles/loop.php:77
+msgid "This user doesn't have any article."
+msgstr "Cet utilisateur n'a pas encore créé d'article."
+
+#: includes/templates/members/single/articles/new.php:8
+msgid "Under review"
+msgstr "En cours de révision"
+
+#: includes/templates/members/single/articles/new.php:9
+msgid "New"
+msgstr "Nouveau"
+
+#: includes/templates/members/single/articles/new.php:29
+msgid "You cannot perform this action"
+msgstr "Vous ne pouvez pas effectuer cette action"
+
+#: includes/templates/members/single/articles/new.php:51
+msgid "Edit article"
+msgstr "Editer l'article"
+
+#: includes/templates/members/single/articles/new.php:52
+msgid "View article"
+msgstr "Visualiser l'article"
+
+#: includes/templates/members/single/articles/new.php:58
+msgid "Categories"
+msgstr "Catégories"
+
+#: includes/templates/members/single/articles/new.php:59
+msgid "Select your category"
+msgstr "Sélectionner une catégorie"
+
+#: includes/templates/members/single/articles/new.php:65
+msgid "Tags"
+msgstr "Tags (mots-clés)"
+
+#: includes/templates/members/single/articles/new.php:66
+msgid "Select your tags"
+msgstr "Sélectionner vos tags (mots-clés)"
+
+#: includes/templates/members/single/articles/new.php:73
+msgid "Status"
+msgstr "Status"
+
+#: includes/templates/members/single/articles/new.php:78
+msgid "Article title..."
+msgstr "Titre de votre article"
+
+#: includes/templates/members/single/articles/new.php:86
+msgid "Insert unordered list"
+msgstr "Insérer une liste désordonéne"
+
+#: includes/templates/members/single/articles/new.php:87
+msgid "Insert ordered list"
+msgstr "Insérer uen liste ordonéne"
+
+#: includes/templates/members/single/articles/new.php:88
+msgid "Insert link"
+msgstr "Insérer un lien"
+
+#: includes/templates/members/single/articles/new.php:89
+msgid "Title"
+msgstr "Titre"
+
+#: includes/templates/members/single/articles/new.php:110
+msgid "OK"
+msgstr "Valider"
+
+#: includes/templates/members/single/articles/new.php:110
+#: includes/templates/members/single/articles/new.php:156
+msgid "Cancel"
+msgstr "Annuler"
+
+#: includes/templates/members/single/articles/new.php:116
+msgid "Article content..."
+msgstr "Contenu de votre article"
+
+#: includes/templates/members/single/articles/new.php:128
+msgid "Upload Image"
+msgstr "Télécharger une image à mettre à la une"
+
+#: includes/templates/members/single/articles/new.php:129
+msgid "Max size allowed is 2 MB"
+msgstr "Poids maximal autorisé: 2Mo"
+
+#: includes/templates/members/single/articles/new.php:133
+msgid "Uploading your image. Please wait."
+msgstr "image en cours de chargement, merci de patienter..."
+
+#: includes/templates/members/single/articles/new.php:137
+msgid "Delete"
+msgstr "Supprimer"
+
+#: includes/templates/members/single/articles/new.php:143
+msgid "Saving your article. Please wait."
+msgstr "Article en cours d'enregistrement, merci de patienter..."
+
+#: includes/templates/members/single/articles/new.php:149
+msgid "Save and move it under review"
+msgstr "Enregistrer et soumettre à validation"
+
+#: includes/templates/members/single/articles/new.php:152
+msgid "Save and publish"
+msgstr "Sauvegarder et publier"
+
+#: includes/templates/members/single/articles/new.php:155
+msgid "Save"
+msgstr "Sauvegarder"
