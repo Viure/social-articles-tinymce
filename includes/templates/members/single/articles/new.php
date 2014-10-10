@@ -53,7 +53,7 @@ $statusLabels = array("publish"=>__('Published', 'social-articles'),
         <input type="submit" id="new-article" class="button" value="<?php _e("New article", "social-articles"); ?>" />
     </div>
     <div id="post-maker-container" >
-        <div class="options">
+        <div class="options clearfix">
             <div class="options-content">
                 <h5><?php _e("Select your category", "social-articles"); ?></h5>
                 <!--
@@ -78,10 +78,11 @@ $statusLabels = array("publish"=>__('Published', 'social-articles'),
             </div>
         </div>
 
+        <h5><?php _e("Article title...", "social-articles"); ?></h5>
         <input type="text" id="post_title" class="title-input" autofocus placeholder="<?php _e("Article title...", "social-articles"); ?>" value="<?php echo $title; ?>"/>
         
         <div class="editor-container">
-          <h4><?php _e("Article content...", "social-articles"); ?></h4>      
+          <h5><?php _e("Article content...", "social-articles"); ?></h5>      
           <?php
             $editor_id = 'wp_tinymce_editor';
             $settings = array(
