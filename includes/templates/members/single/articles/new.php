@@ -55,20 +55,11 @@ $statusLabels = array("publish"=>__('Published', 'social-articles'),
     <div id="post-maker-container" >
         <div class="options clearfix">
             <div class="options-content">
-                <h5><?php _e("Select your category", "social-articles"); ?></h5>
-                <!--
-                <div class="categories-selector"><?php _e("Categories", "social-articles"); ?></div>
-                <span class="picker" onmouseover="showCategoryList()"></span>
-                <span class="white-picker"></span>
-                -->
+                <h5><?php _e("Categories", "social-articles"); ?></h5>
                 <?php echo get_category_list_options($_GET['article']);?>
             </div>
             <div class="options-content options-content-second">
-                
-                <!-- <div class="tags-selector"><?php _e("Tags", "social-articles"); ?></div> -->
-                <!-- <span class="picker-t" onmouseover="showTagsList()"></span> -->
-                <!-- <span class="white-picker-t"></span> -->
-                <h5><?php _e("Select your tags", "social-articles"); ?></h5>
+                <h5><?php _e("Tags", "social-articles"); ?></h5>
                 <?php echo get_tags_list_options($_GET['article']);?>
             </div>
 
