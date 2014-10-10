@@ -74,7 +74,6 @@ $statusLabels = array("publish"=>__('Published', 'social-articles'),
 
             <div class="post-status-container options-content">
                 <h5><?php _e("Status", "social-articles"); ?></h5>
-   
                 <span class="article-status <?php echo $status;?>"><?php echo $statusLabels[$status];?></span>
             </div>
         </div>
@@ -82,7 +81,6 @@ $statusLabels = array("publish"=>__('Published', 'social-articles'),
         <input type="text" id="post_title" class="title-input" autofocus placeholder="<?php _e("Article title...", "social-articles"); ?>" value="<?php echo $title; ?>"/>
         
         <div class="editor-container">
-
           <h4><?php _e("Article content...", "social-articles"); ?></h4>      
           <?php
             $editor_id = 'wp_tinymce_editor';
@@ -94,7 +92,7 @@ $statusLabels = array("publish"=>__('Published', 'social-articles'),
               );
             wp_editor( $content, $editor_id, $settings);
           ?>                
-        </div>
+       </div>        
         
         <div id="post_image" class="post-image-container">
             <div class="image-preview-container" id="image-preview-container">
@@ -130,8 +128,7 @@ $statusLabels = array("publish"=>__('Published', 'social-articles'),
             <input type="submit" class="button save" value="<?php _e("Save", "social-articles"); ?>" onclick="savePost(); return false;" />
             <input type="submit" class="button cancel" value="<?php _e("Cancel", "social-articles"); ?>" onclick="window.open('<?php echo $bp->loggedin_user->domain.'/articles';?>', '_self')" />
         </div>  
-    </div>
-      
+    </div>    
 <?php else:?>
     <div id="message" class="messageBox note icon">
         <span><?php echo $message; ?></span>

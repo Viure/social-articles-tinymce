@@ -144,7 +144,7 @@ function closeCategoriesList(){
 }
         
 function setListsElements(content, namesContainer, idsContainer, selector){
-    jQuery(function() {                
+ jQuery(function() {                
         names = "";
         ids = "";
         jQuery('.'+content +' input[type="radio"]:checked').each(function() {
@@ -153,8 +153,6 @@ function setListsElements(content, namesContainer, idsContainer, selector){
         });
 
         jQuery('.'+content +' select option:selected').each(function() {
-        jQuery('.'+content +' input[type="checkbox"]:checked').each(function() {
-
             names += jQuery(this).val() + ',';
             ids += jQuery(this).attr('id') + ',';
         });
@@ -170,18 +168,17 @@ function setListsElements(content, namesContainer, idsContainer, selector){
 }
 
 function setCategoriesElements(){
-    jQuery(function() { 
+     jQuery(function() { 
         name = "";
         id = "";
         jQuery('.category-list-container select option:selected').each(function() {                    
-        jQuery('.category-list-container input[type="radio"]:checked').each(function() { 
             name = jQuery(this).val();
             id = jQuery(this).attr('id');                 
         });
         
         jQuery("#categories-ids").val(id);
         jQuery(".categories-selector").html(name);
-    });      
+    });   
 }
 
 function hideCategoryList(){        
