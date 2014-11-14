@@ -77,6 +77,16 @@ function pending_articles_screen() {
 
 
 
+function bp_plugin_main_screen_function(){
+ 
+    bp_core_load_template( apply_filters( 'bp_plugin_main_screen_function', 'articles' ) );
+ 
+    //if BP Default is not used, we filter bp_get_template_part
+    if( !bp_plugin_is_bp_default() )
+        add_filter('bp_get_template_part','bp_plugin_user_template_part', 10, 3 );
+}
+ 
+
 if ( class_exists( 'BP_Theme_Compat' ) ) {
 
     class SA_Theme_Compat {
@@ -102,7 +112,7 @@ if ( class_exists( 'BP_Theme_Compat' ) ) {
         }
 
         public function directory_content() {
-            bp_buffer_template_part( 'members/single/home' );
+            //bp_buffer_template_part( 'members/single/plugins' ); // replacing the 'home' slug
             bp_buffer_template_part( 'members/single/articles' );
         }
     }
